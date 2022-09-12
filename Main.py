@@ -7,7 +7,7 @@ def selectionSort(array, size) -> List[int]:
     for j in range(i+1,len(array)):
       if array[minimum]>array[j]:
         minimum=j
-    aarray[i],array[minimum] = array[minimum],array[i]
+    array[i],array[minimum] = array[minimum],array[i]
 
 # Do not change the following code
 input_data = input()
